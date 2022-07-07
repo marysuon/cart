@@ -1,6 +1,6 @@
-﻿using Carting.Application;
-using Carting.Application.Repository;
-using Carting.Infrastructure;
+﻿using Carting.API.ApplicationLayer;
+using Carting.API.ApplicationLayer.Repository;
+using Carting.API.InfrastructureLayer;
 
 namespace Carting.API
 {
@@ -13,7 +13,7 @@ namespace Carting.API
             var liteDatabaseConfiguration = builderConfiguration.GetSection(liteDatabaseConfigurationType.Name).Get<LiteDatabaseConfiguration>();
             builderServices.AddSingleton<ILiteDatabaseConfiguration>(liteDatabaseConfiguration);
 
-            builderServices.AddSingleton(typeof(IRepository<>), typeof(LiteDatabaseRepository<>));
+            builderServices.AddSingleton(typeof(IRepository<>), typeof(InfrastructureLayer.LiteDatabaseRepository<>));
 
             ApplicationCompositionModule.RegisterDependencies(builderServices);
 

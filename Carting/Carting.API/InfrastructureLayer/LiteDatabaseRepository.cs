@@ -1,8 +1,8 @@
-﻿using Carting.ApplicationLayer.Repository;
-using Carting.Domain.Models;
+﻿using Carting.API.ApplicationLayer.Repository;
+using Carting.API.DomainLayer.Models;
 using LiteDB;
 
-namespace Carting.Infrastructure
+namespace Carting.API.InfrastructureLayer
 {
     public class LiteDatabaseRepository<TEntity> : IRepository<TEntity>
         where TEntity : IAggregateRoot

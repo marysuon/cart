@@ -1,5 +1,5 @@
-using Carting.Application;
-using Carting.Application.Models;
+using Carting.API.ApplicationLayer;
+using Carting.API.ApplicationLayer.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Carting.API.Controllers
@@ -19,6 +19,18 @@ namespace Carting.API.Controllers
         public CartDto Get(Guid id)
         {
             return _cartService.Get(id);
+        }
+
+        [HttpDelete(Name = "Delete")]
+        public void Delete(Guid id)
+        {
+            _cartService.Remove(id);
+        }
+
+        [HttpPost(Name = "Create")]
+        public CartDto Create(CartDto cart)
+        {
+            return _cartService.Add(cart);
         }
     }
 }
