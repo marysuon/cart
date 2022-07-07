@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carting.Domain", "Carting.DomainModels\Carting.Domain.csproj", "{8E1B6CD8-F915-4FFF-AE8B-F150F39D6576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carting.Application", "Carting.Application\Carting.Application.csproj", "{DA7D5E3E-BCB8-425D-8174-5369171C6440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carting.Infrastructure", "Carting.Infrastructure\Carting.Infrastructure.csproj", "{56FF7941-679E-411D-B459-3CC60F387D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carting.API", "Carting.API\Carting.API.csproj", "{8D187ED9-3914-4660-9653-D8F31364C0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E1B6CD8-F915-4FFF-AE8B-F150F39D6576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1B6CD8-F915-4FFF-AE8B-F150F39D6576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1B6CD8-F915-4FFF-AE8B-F150F39D6576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1B6CD8-F915-4FFF-AE8B-F150F39D6576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7D5E3E-BCB8-425D-8174-5369171C6440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7D5E3E-BCB8-425D-8174-5369171C6440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7D5E3E-BCB8-425D-8174-5369171C6440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7D5E3E-BCB8-425D-8174-5369171C6440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FF7941-679E-411D-B459-3CC60F387D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FF7941-679E-411D-B459-3CC60F387D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FF7941-679E-411D-B459-3CC60F387D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FF7941-679E-411D-B459-3CC60F387D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D187ED9-3914-4660-9653-D8F31364C0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D187ED9-3914-4660-9653-D8F31364C0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D187ED9-3914-4660-9653-D8F31364C0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D187ED9-3914-4660-9653-D8F31364C0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72142EE1-DB7F-45AE-A7A5-8985DE19329F}
+	EndGlobalSection
+EndGlobal
